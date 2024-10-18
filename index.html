@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/tailwind.css">
+  </head>
+  <body>
+    <header class="mx-10"> 
+      <div class="flex flex-row justify-between">
+        <h3  class="text-primary font-bold text-xl mt-7 mb-10">Store</h3>
+        <a href="#" class="px-4 py-1.5 bg-white rounded-xl font-semibold text-sm mt-7 mb-10">Login <i class="fa-solid fa-arrow-right-to-bracket ml-1"></i></a>
+      </div>
+        <h2 class="text-3xl font-semibold leading-5">Shop</h2>
+      <div>
+        <input class="my-5 px-3 py-1 rounded-lg border-2 outline-none border-solid" type="text" placeholder="Search product">
+        <button type="button" class=" bg-primary px-2 py-1 rounded-md"><i class="fa-solid fa-magnifying-glass text-background"></i></button>
+      </div>
+    </header>
+    <div class="container mx-10">
+      <main class="cards">
+        <div id="loader"></div>
+
+      </main>
+      <aside class="categury ">
+
+      </aside>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
