@@ -17,12 +17,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  max-width: 1200px;
-  margin: auto;
-  background-color: var(--color-background);
-}
-
 #loader {
   width: 100px;
   height: 100px;
@@ -46,6 +40,10 @@ body {
 .cards{
   width: 75%;
   margin-top: 50px;
-  
-  
+}
+.body{
+  @apply max-w-maxScreen m-auto bg-background
+}
+.input{
+  @apply border-2 border-secondary rounded-lg px-3 py-2 text-primary outline-none my-4
 }
